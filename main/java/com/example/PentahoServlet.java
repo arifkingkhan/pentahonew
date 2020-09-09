@@ -86,6 +86,8 @@ public class PentahoServlet extends HttpServlet
       textFactory.setFieldname("Name");
       textFactory.setX(100f);
       textFactory.setY(1f);
+
+
       textFactory.setMinimumWidth(200f);
       textFactory.setMinimumHeight(20f);
       Element nameField3 = textFactory.createElement();
